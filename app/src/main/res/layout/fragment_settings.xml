@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hac"
+    android:padding="20dp"
+    android:gravity="center"
+    tools:context=".fragment_settings">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/head_terms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terms and Conditions"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/spartanbold"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/privacy_head_term"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Privacy"
+        android:layout_below="@+id/head_terms"
+        android:textSize="15dp"
+        android:fontFamily="@font/spartanbold"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/privacy_tail_term"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/privacy_term"
+        android:layout_below="@+id/privacy_head_term"
+        android:textSize="15dp"
+        android:fontFamily="@font/spartanlight"
+        android:textColor="@color/white"/>
+<TextView
+        android:id="@+id/changes_to_term_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Changes to Term"
+        android:layout_below="@+id/privacy_tail_term"
+        android:textSize="15dp"
+        android:fontFamily="@font/spartanbold"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/changes_to_term_tail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/privacy_term"
+        android:layout_below="@+id/changes_to_term_head"
+        android:textSize="15dp"
+        android:fontFamily="@font/spartanlight"
+        android:textColor="@color/white"/>
+<TextView
+        android:id="@+id/user_conduct_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. User Conduct"
+        android:layout_below="@+id/changes_to_term_tail"
+        android:textSize="15dp"
+        android:fontFamily="@font/spartanbold"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/user_conduct_tail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/privacy_term"
+        android:layout_below="@+id/user_conduct_head"
+        android:textSize="15dp"
+        android:fontFamily="@font/spartanlight"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>

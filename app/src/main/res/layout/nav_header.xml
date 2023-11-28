@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:padding="16dp"
+    android:gravity="bottom"
+    android:background="@color/hac"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:contentDescription="Header Image"
+        android:paddingTop="16dp"
+        android:src="@drawable/photo" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BarterWave"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Online Barter System"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginBottom="16dp" />
+   
+</LinearLayout>

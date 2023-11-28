@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hac"
+    tools:context=".fragment_bottom_account"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/spartanbold"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:text="Profile"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/reg_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="Name : vazid"
+            android:fontFamily="@font/spartanregular"
+            android:background="@drawable/edittext_shape"
+            android:padding="@dimen/_10sdp"
+            android:layout_marginTop="21dp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/reg_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:padding="@dimen/_10sdp"
+            android:text="Email : vazidshaik333@gmail.com"
+            android:background="@drawable/edittext_shape"
+            android:fontFamily="@font/spartanregular"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/reg_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:padding="@dimen/_10sdp"
+            android:text="Phone : 8106262357"
+            android:background="@drawable/edittext_shape"
+            android:fontFamily="@font/spartanregular"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textColor="@color/white"  />
+
+        <TextView
+            android:id="@+id/reg_conformpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:padding="@dimen/_10sdp"
+            android:background="@drawable/edittext_shape"
+            android:fontFamily="@font/spartanregular"
+            android:text="Country : india"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textColor="@color/white"  />
+
+        <TextView
+            android:id="@+id/reg_btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/spartanbold"
+            android:textSize="@dimen/_10sdp"
+            android:background="@drawable/sign_in_shape"
+            android:text="LogOut" />
+
+    </LinearLayout>
+
+</RelativeLayout>

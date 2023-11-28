@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BarterWave1</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="content">Welcome to BarterWave, Experience the age-old practice of exchanging goods and services without money, seamlessly facilitated on our user-friendly platform.</string>
+    <string name="about_us">Welcome to BarterWave 🌊, where the timeless art of bartering meets the convenience of the digital age. Our Android app seamlessly connects users in a community-driven marketplace, fostering the exchange of goods and services with ease. Whether you are looking to trade unique items or share your skills, BarterWave provides a secure and user-friendly platform, making every interaction a chance to discover, connect, and trade in the modern world. 🔄📱</string>
+    <string name="privacy_term">we do not collect any personal information from users of the App-\nour privacy is important to us. Please refer to our Privacy Policy\nor more information on how we handle data.</string>
+</resources>
